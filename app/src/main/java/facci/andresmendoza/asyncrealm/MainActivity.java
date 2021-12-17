@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         }
         @Override
         public void run() {
-            String partitionValue = "My Project";
+            String partitionValue = "llave";
             SyncConfiguration config = new SyncConfiguration.Builder(
                     user,
                     partitionValue)
